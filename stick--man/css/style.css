@@ -1,0 +1,295 @@
+@keyframes duz {
+  50% {
+    transform: rotate(180deg); } }
+@keyframes eks {
+  50% {
+    transform: rotate(-180deg); } }
+@keyframes headduz {
+  50% {
+    transform: rotate(65deg); } }
+@keyframes headeks {
+  50% {
+    transform: rotate(-65deg); } }
+@keyframes footeks {
+  50% {
+    transform: rotate(-143deg); } }
+@keyframes footekss {
+  50% {
+    transform: rotate(-58deg); } }
+@keyframes footduz {
+  50% {
+    transform: rotate(143deg); } }
+@keyframes footduzz {
+  50% {
+    transform: rotate(58deg); } }
+@keyframes f {
+  50% {
+    top: 50px; } }
+@keyframes iki {
+  from {
+    left: 245px; }
+  to {
+    left: -155px; } }
+@keyframes uc {
+  from {
+    left: 317px; }
+  to {
+    left: -83px; } }
+@keyframes alti {
+  from {
+    left: 329px; }
+  to {
+    left: -71px; } }
+@keyframes doqquz {
+  from {
+    left: 366px; }
+  to {
+    left: -34px; } }
+@keyframes ondort {
+  from {
+    left: 368px; }
+  to {
+    left: -32px; } }
+.close1 {
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  background: white;
+  top: 308px;
+  z-index: 10000;
+  left: 318px; }
+
+.close2 {
+  width: 200px;
+  background: white;
+  height: 70px;
+  position: absolute;
+  top: 308px;
+  z-index: 10010;
+  left: 718px; }
+
+.border-bottom {
+  width: 200px;
+  height: 70px;
+  background: grey;
+  position: relative;
+  left: 510px;
+  z-index: -50; }
+  .border-bottom .iki {
+    width: 15px;
+    border-radius: 80%;
+    height: 5px;
+    position: absolute;
+    background: wheat;
+    top: 18px;
+    left: -155px;
+    animation: iki 1s infinite linear; }
+  .border-bottom .uc {
+    width: 15px;
+    border-radius: 50%;
+    height: 5px;
+    position: absolute;
+    background: white;
+    top: 50px;
+    left: -83px;
+    animation: uc 1s infinite linear; }
+  .border-bottom .alti {
+    width: 15px;
+    height: 5px;
+    border-radius: 100%;
+    position: absolute;
+    background: black;
+    top: 16px;
+    animation: alti 1s infinite linear;
+    left: -71px; }
+  .border-bottom .doqquz {
+    width: 15px;
+    height: 5px;
+    border-radius: 40%;
+    position: absolute;
+    background: black;
+    top: 56px;
+    left: -34px;
+    animation: doqquz 1s infinite linear; }
+  .border-bottom .ondort {
+    width: 15px;
+    height: 5px;
+    border-radius: 40%;
+    position: absolute;
+    background: white;
+    left: -32px;
+    top: 7px;
+    animation: ondort 1s infinite linear; }
+
+#stick-man {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  top: 100px;
+  left: 500px;
+  background: transparent;
+  animation: f 0.5s infinite linear; }
+  #stick-man .head {
+    width: 80px;
+    height: 80px;
+    left: 60px;
+    position: absolute;
+    border-radius: 100%;
+    background: black; }
+  #stick-man .eye {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: white;
+    top: 25px;
+    left: 114px; }
+    #stick-man .eye .eyeb {
+      width: 8px;
+      height: 8px;
+      position: absolute;
+      border-radius: 100%;
+      top: 3.5px;
+      left: 3.5px;
+      background-color: black; }
+  #stick-man .body {
+    width: 20px;
+    height: 110px;
+    left: 90px;
+    top: 78px;
+    z-index: 2;
+    position: absolute;
+    background: green;
+    border-radius: 5px; }
+  #stick-man .hand1 {
+    width: 150px;
+    height: 150px;
+    top: 9px;
+    left: 25px;
+    z-index: 3;
+    position: absolute;
+    animation: duz 1s infinite linear; }
+    #stick-man .hand1 .bir {
+      width: 50px;
+      height: 10px;
+      top: 70px;
+      left: 75px;
+      border-radius: 5px;
+      background: yellow;
+      position: absolute; }
+    #stick-man .hand1 .iki {
+      width: 100px;
+      height: 100px;
+      left: 73px;
+      top: 25px;
+      position: absolute;
+      animation: headduz 1s infinite linear; }
+      #stick-man .hand1 .iki .ikin {
+        width: 10px;
+        left: 37px;
+        top: 2px;
+        height: 50px;
+        position: absolute;
+        border-radius: 5px;
+        background: blue;
+        transform: rotate(-25deg); }
+  #stick-man .hand2 {
+    width: 150px;
+    height: 150px;
+    top: 9px;
+    left: 25px;
+    position: absolute;
+    animation: eks 1s infinite linear;
+    z-index: 1; }
+    #stick-man .hand2 .bir {
+      width: 50px;
+      height: 10px;
+      top: 70px;
+      left: 25px;
+      border-radius: 5px;
+      background: yellow;
+      position: absolute; }
+    #stick-man .hand2 .iki {
+      width: 100px;
+      height: 100px;
+      left: -25px;
+      top: 29px;
+      position: absolute;
+      animation: headeks 1s infinite linear; }
+      #stick-man .hand2 .iki .ikin {
+        width: 10px;
+        left: 37px;
+        top: 44px;
+        height: 50px;
+        position: absolute;
+        border-radius: 5px;
+        background: blue;
+        transform: rotate(25deg); }
+  #stick-man .foot1 {
+    width: 120px;
+    height: 120px;
+    top: 125px;
+    left: 39px;
+    position: absolute;
+    animation: footduz 1s infinite linear;
+    z-index: 6; }
+    #stick-man .foot1 .bir {
+      width: 60px;
+      height: 12px;
+      top: 62px;
+      z-index: 6;
+      left: 53px;
+      transform: rotate(20deg);
+      border-radius: 5px;
+      background: yellow;
+      position: absolute; }
+    #stick-man .foot1 .iki {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 31px;
+      left: 62px;
+      animation: footduzz 1s infinite linear; }
+      #stick-man .foot1 .iki .ikin {
+        width: 12px;
+        height: 50px;
+        position: absolute;
+        top: 43px;
+        left: 54px;
+        background: blue;
+        transform: rotate(-30deg);
+        border-radius: 5px; }
+  #stick-man .foot2 {
+    width: 120px;
+    height: 120px;
+    top: 125px;
+    left: 39px;
+    position: absolute;
+    animation: footeks 1s infinite linear; }
+    #stick-man .foot2 .bir {
+      width: 60px;
+      height: 12px;
+      top: 62px;
+      left: 7px;
+      transform: rotate(-20deg);
+      border-radius: 5px;
+      background: yellow;
+      position: absolute; }
+    #stick-man .foot2 .iki {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 26px;
+      left: -43px;
+      animation: footekss 1s infinite linear; }
+      #stick-man .foot2 .iki .ikin {
+        width: 12px;
+        height: 50px;
+        position: absolute;
+        top: 5px;
+        left: 41px;
+        background: blue;
+        transform: rotate(-10deg);
+        border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */
